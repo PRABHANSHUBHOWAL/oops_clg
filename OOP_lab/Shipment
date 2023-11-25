@@ -1,0 +1,20 @@
+public class Shipment extends BoxWeight{
+	double cost;
+	int w, a, b, c;
+	
+	Shipment(int w, int a, int b, int c, double cost){
+		super(a, b, c, weight);
+		this.cost = cost;
+	}
+	
+	public static void main(String[] args){
+		Shipment obj = new Shipment(100, 20, 30, 22, 12000);
+		System.out.println(w);
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(cost);
+	}
+}
+
+		
