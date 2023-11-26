@@ -14,8 +14,6 @@ public class Shipment extends BoxWeight{
 	 int weight(){
 		return super.weight;
 	}
-	
-	
 	public static void main(String[] args){
 		Shipment obj = new Shipment(100, 20, 30, 22, 12000);
 		
